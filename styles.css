@@ -10,10 +10,10 @@ footer {
   border-radius: 4px;  
 }
 .profile-image {
-    height: 225px;
+    height: 175px;
     float: right;
     border-radius: 3px;
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px 5px rgb(199, 199, 199);
 }
 .course-headline {
     border-bottom: rgb(165, 164, 164);
