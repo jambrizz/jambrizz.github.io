@@ -15,3 +15,6 @@ footer {
     border-radius: 3px;
     box-shadow: 5px 5px grey;
 }
+.course-headline {
+    border-bottom: rgb(165, 164, 164);
+}
