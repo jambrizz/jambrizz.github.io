@@ -5,3 +5,7 @@ header {
 body {
     width: 600px;
 }
+footer {
+  background-color: #7BA098;
+  border-radius: 4px;  
+}
