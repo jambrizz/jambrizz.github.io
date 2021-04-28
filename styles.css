@@ -10,6 +10,7 @@ footer {
   border-radius: 4px;  
 }
 .profile-image {
-    height: 225x;
+    height: 225px;
     float: right;
+    border-radius: 3px;
 }
