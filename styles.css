@@ -1,7 +1,7 @@
 header {
   background-color: #7BA098;
   border-radius: 4px;
-  padding: 20px 30px 20px 30px;   
+  padding: 15px 25px 15px 25px;   
 }
 body {
     width: 550px;
@@ -9,7 +9,7 @@ body {
 footer {
   background-color: #7BA098;
   border-radius: 4px;
-  padding: 15px 25px 15px 25px;
+  padding: 10px 15px 10px 15px;
 }
 .profile-image {
     height: 175px;
