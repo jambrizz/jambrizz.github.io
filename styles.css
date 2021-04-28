@@ -13,4 +13,5 @@ footer {
     height: 225px;
     float: right;
     border-radius: 3px;
+    box-shadow: 5px 5px grey;
 }
