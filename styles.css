@@ -9,3 +9,6 @@ footer {
   background-color: #7BA098;
   border-radius: 4px;  
 }
+.profile-image {
+    height: 300px;
+}
