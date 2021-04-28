@@ -1,3 +1,7 @@
 header {
-  background-color: #7BA098;  
+  background-color: #7BA098;
+  border-radius: 4px;  
+}
+body {
+    width: 600px;
 }
