@@ -10,8 +10,9 @@
   <script>
      let d = new Date();
       document.getElementById("currentYear").innerHTML = d.getFullYear();
-    function lastM(){
+    function lastM() {
       let dateT = document.lastModified;
+      document.getElementById("date").innerHTML = dateT;
     }
   </script>
 </head>
@@ -29,7 +30,7 @@
  </div>
   <footer>
    <p> &copy; <span id="d"></span><span>| Jovani Ambriz | California |</span><span href="https://www.byui.edu/online"></span></p>
-   <p><span id="lastM()"></span></p>
+   <p><span id="date"></span></p>
   </footer>
 </body>
 </html> 
