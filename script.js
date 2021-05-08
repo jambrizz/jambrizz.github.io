@@ -6,4 +6,5 @@ function lastM() {
 function year() {
   let d = new Date();
   let currentYear = d.getFullYear();
+  document.getElementById("date2").innerHTML = currentYear;
 }
