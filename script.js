@@ -3,8 +3,11 @@ function lastM() {
     document.getElementById("date").innerHTML = dateT;
   }
 
-function year() {
+/*function year() {
   let d = new Date();
-  let currentYear = d.getFullYear();
-  document.getElementById("date2").innerHTML = currentYear;
-}
+  let year = d.getFullYear();
+  document.getElementById("currentYear").innerHTML = year;
+}*/
+$(document).ready(function(){
+  $('.currentYear').text( new Date().getFullYear() );
+});
