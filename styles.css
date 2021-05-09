@@ -1,10 +1,14 @@
 body {
-  width: 550px;
+  width: 650px;
 }
   header {
   background-color: #7BA098;
   border-radius: 4px;
-  padding: 10px 20px 10px 20px;   
+  padding: 10px;   
+}
+.student-name {
+  margin-left: 180px;
+  font-size: 2.5em;
 }
 footer {
   background-color: #7BA098;
@@ -14,10 +18,24 @@ footer {
 .profile-image {
     height: 175px;
     float: right;
-    border-radius: 3px;
-    box-shadow: 5px 5px rgb(199, 199, 199);
-    margin-bottom: 450px;
+    clear: both;
+    margin-top: 0;
+    border-radius: 4px;
 }
 .course-headline {
-    border-bottom: rgba(165, 164, 164, 0.534);
+    margin-left: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(216, 208, 208);
+    width: 80%;
+}
+.foot-info {
+  margin-left: 50px;
+}
+.modDate {
+  color: rgba(255, 255, 0, 0.884);
+  margin-left: 90px;
+}
+.date {
+  color: rgba(255, 255, 0, 0.884);
+  margin-left: 10px;
 }
