@@ -39,3 +39,9 @@ footer {
   color: rgba(255, 255, 0, 0.884);
   margin-left: 10px;
 }
+a {
+  color: blue;
+}
+a:hover {
+  color: orange;
+}
