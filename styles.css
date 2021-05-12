@@ -1,6 +1,12 @@
 body {
   width: 650px;
 }
+h1,h2,h3 {
+  font-family: 'Lato', 'Sans-Serif';
+}
+p {
+  font-family: 'Roboto', 'Sans-Serif';
+}
   header {
   background-color: #7BA098;
   border-radius: 4px;
