@@ -1,6 +1,13 @@
 body {
   width: 650px;
 }
+/*
+below is to make sure the image shrinks to fit space it has so a scroll bar wont be added.
+*/
+img {
+  max-width: 100%;
+  display: block;
+}
 h1,h2,h3 {
   font-family: 'Lato', 'Sans-Serif';
 }
