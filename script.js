@@ -18,4 +18,4 @@ year.innerHTML = d.getFullYear();
 
 let dateMod = document.querySelector("#dateM");
 
-dateMod.innerHTML = d.document.lastModified;
+dateMod.innerHTML = document.lastModified;
