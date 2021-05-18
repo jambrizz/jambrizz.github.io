@@ -15,3 +15,7 @@ document.getElementById('year').innerHTML = d.getFullYear();
 let year = document.querySelector("#year");
 
 year.innerHTML = d.getFullYear();
+
+let dateMod = document.querySelector("#dateM");
+
+dateMod.innerHTML = document.lastModified;
