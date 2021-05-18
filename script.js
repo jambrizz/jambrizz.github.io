@@ -11,5 +11,5 @@ $(document).ready(function(){
 let d = new Date();
 document.getElementById('year').innerHTML = d.getFullYear();
 
-let mod = new Date(document.lastModified);
-document.getElementsById('dateM').innerHTML = mod;
+
+document.getElementsById('dateM').innerHTML = document.lastModified;
