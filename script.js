@@ -9,6 +9,6 @@ $(document).ready(function(){
 */
 
 function currentYear () {
-  let y = new Date().getFullYear();
+  let y = new Date(currentYear);
   document.getElementById("year").innerHTML = y;
 };
