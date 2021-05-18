@@ -12,6 +12,6 @@ let d = new Date();
 /*
 document.getElementById('year').innerHTML = d.getFullYear();
 */
-let year = document.querySelector(#year);
+let year = document.querySelector("#year");
 
 year.innerHTML = d.getFullYear();
