@@ -53,7 +53,7 @@ footer {
   margin-left: 10px;
 }
 a {
-  color: darkblue;
+  color: rgb(0, 0, 139);
 }
 a:hover {
   color: orange;
