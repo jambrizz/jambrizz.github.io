@@ -8,7 +8,8 @@ $(document).ready(function(){
 });
 */
 
-  let d = new Date();
-  document.getElementById('year').innerHTML = d.getFullYear();
+let d = new Date();
+document.getElementById('year').innerHTML = d.getFullYear();
 
-  document.getElementsById('date').innerHTML = d.lastModified();
+let mod = new Date(document.lastModified);
+document.getElementsById('date').innerHTML = mod;
