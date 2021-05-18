@@ -6,5 +6,5 @@ let year = document.querySelector("#year");
 year.innerHTML = d.getFullYear();
 /* This querySelector is to locate the class="dateMod" to modify*/
 let dateMod = document.querySelector(".date");
-
+/* This  is to insert the date the document was modified in the above class*/
 dateMod.innerHTML = document.lastModified;
