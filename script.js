@@ -12,4 +12,4 @@ let d = new Date();
 document.getElementById('year').innerHTML = d.getFullYear();
 
 let mod = new Date(document.lastModified);
-document.getElementsById('date').innerHTML = mod;
+document.getElementsById('dateM').innerHTML = mod;
