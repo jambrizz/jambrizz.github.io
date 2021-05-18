@@ -10,5 +10,5 @@ $(document).ready(function(){
 
 function currentYear () {
   let d = new Date();
-  document.getElementById('year').innerText = d;
+  document.getElementById('year').innerText = d.getFullYear();
 };
