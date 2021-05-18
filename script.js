@@ -9,7 +9,9 @@ $(document).ready(function(){
 */
 
 let d = new Date();
+/*
 document.getElementById('year').innerHTML = d.getFullYear();
+*/
+let year = document.querySelector(#year);
 
-
-document.getElementsById('dateM').innerHTML = d.document.lastModified();
+year.innerHTML = d.getFullYear();
