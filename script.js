@@ -11,4 +11,4 @@ $(document).ready(function(){
   let d = new Date();
   document.getElementById('year').innerHTML = d.getFullYear();
 
-  document.getElementsByClassName('date').innerHTML = d.lastModified();
+  document.getElementsById('date').innerHTML = d.lastModified();
