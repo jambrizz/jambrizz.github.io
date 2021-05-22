@@ -58,3 +58,10 @@ a {
 a:hover {
   color: orange;
 }
+
+/* this is to control that images do not exceed the width of the viewport
+img {
+  max-width: 100%;
+  display: block;
+}
+*/
