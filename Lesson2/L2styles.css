@@ -5,6 +5,9 @@ h1,h2,h3,h4 {
 p {
     font-family: 'Roboto', 'Sans-Serif'; 
 }
+ol li {
+    font-family: 'Roboto', 'Sans-Serif';
+}
 img {
     max-width: 100%;
     display: block;
