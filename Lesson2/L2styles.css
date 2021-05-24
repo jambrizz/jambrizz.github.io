@@ -15,11 +15,12 @@ img {
 }
 main {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 500px);
     grid-template-rows: auto;
 }
 article {
     border-style: solid;
     border-color: grey;
     border-radius: 7px;
+    background-color: lightgray;
 }
