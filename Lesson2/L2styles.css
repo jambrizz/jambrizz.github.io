@@ -23,6 +23,7 @@ a {
 .lesson-2-header {
     background-color: #5B7553;
     border-radius: 7px;
+    overflow: hidden;
 }
 body {
     margin-left: 20px;
