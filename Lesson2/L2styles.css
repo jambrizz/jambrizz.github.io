@@ -32,6 +32,6 @@ article {
     background-color: rgb(226, 224, 224);
 }
 .principle-1,.principle-2,.principle-3 {
-    height: 100%;
     width: 100%;
+    padding: 25px, 50px, 25px, 50px;
 }
