@@ -20,6 +20,10 @@ img {
 a {
     color: rgb(0, 0, 139);
   }
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 main {
     display: grid;
     grid-template-columns: repeat(3, 450px);
