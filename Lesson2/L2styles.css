@@ -13,15 +13,7 @@ img {
     width: 550px;
     border-radius: 6px;
 }
-.sec-1 {
+article {
     border-style: solid;
-    border: black;
-}
-.sec-2 {
-    border-style: solid;
-    border: black;
-}
-.sec-3 {
-    border-style: solid;
-    border: black;
+    border-color: black;
 }
