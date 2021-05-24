@@ -21,4 +21,5 @@ main {
 article {
     border-style: solid;
     border-color: grey;
+    border-radius: 7px;
 }
