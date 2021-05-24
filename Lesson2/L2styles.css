@@ -17,6 +17,9 @@ img {
     width: 550px;
     border-radius: 6px;
 }
+a {
+    color: rgb(0, 0, 139);
+  }
 main {
     display: grid;
     grid-template-columns: repeat(3, 500px);
