@@ -1,6 +1,10 @@
 h1,h2,h3,h4 {
     font-family: 'Lato', 'Sans-Serif';
 }
+h1 {
+    background-color: #5B7553;
+    color: white;
+}
 p {
     font-family: 'Roboto', 'Sans-Serif'; 
 }
@@ -13,6 +17,9 @@ img {
     width: 550px;
     border-radius: 6px;
 }
+a {
+    color: rgb(0, 0, 139);
+  }
 main {
     display: grid;
     grid-template-columns: repeat(3, 500px);
@@ -22,5 +29,5 @@ article {
     border-style: solid;
     border-color: grey;
     border-radius: 7px;
-    background-color: lightgray;
+    background-color: rgb(226, 224, 224);
 }
