@@ -20,6 +20,9 @@ img {
 a {
     color: rgb(0, 0, 139);
   }
+.lesson-2-header {
+    background-color: #5B7553;
+}
 body {
     margin-left: 20px;
     margin-right: 20px;
