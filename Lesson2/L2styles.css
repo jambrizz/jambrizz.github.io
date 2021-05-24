@@ -23,8 +23,8 @@ a {
 main {
     display: grid;
     grid-template-columns: repeat(3, 450px);
-    grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 30px;
 }
 article {
     border-style: solid;
