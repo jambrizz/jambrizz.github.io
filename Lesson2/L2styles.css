@@ -13,7 +13,12 @@ img {
     width: 550px;
     border-radius: 6px;
 }
+main {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+}
 article {
     border-style: solid;
-    border-color: black;
+    border-color: grey;
 }
