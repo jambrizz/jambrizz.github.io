@@ -1,7 +1,7 @@
 h1,h2,h3,h4 {
     font-family: 'Lato', 'Sans-Serif';
 }
-h1 {
+h1,h2 {
     background-color: #5B7553;
     color: white;
 }
@@ -18,7 +18,7 @@ img {
     border-radius: 6px;
 }
 a {
-    color: rgb(0, 0, 139);
+    color: darkblue;
   }
 .lesson-2-header {
     display: grid;
@@ -61,4 +61,85 @@ article {
 .principle-1 {
     width: 100%;
     padding: 50px, 50px, 50px, 50px;
+}
+.sec-1 {
+    display: grid;
+    grid-template-rows: repeat(7, auto);
+}
+.principle-1 {
+    grid-row: 1;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+.company1 {
+    grid-row: 2;
+    margin-top: 0;
+}
+.companyURL1 {
+    grid-row: 3;
+}
+.desc-1 {
+    grid-row: 4;
+}
+.desc-1-list {
+    grid-row: 5;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.screenshot1 {
+    grid-row: 6/8;
+    margin-top: 0;
+}
+.sec-2 {
+    display: grid;
+    grid-template-rows: repeat(7, auto);
+}
+.principle-2 {
+    grid-row: 1;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+.company2 {
+    grid-row: 2;
+    margin-top: 0;
+}
+.companyURL2 {
+    grid-row: 3;
+}
+.desc-2 {
+    grid-row: 4/5;
+}
+.screenshot2 {
+    grid-row: 6/8;
+    margin-top: 0;
+}
+.sec-3 {
+    display: grid;
+    grid-template-rows: repeat(7, auto);
+}
+.principle-3 {
+    grid-row: 1;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+.company3 {
+    grid-row: 2;
+    margin-top: 0;
+}
+.companyURL3 {
+    grid-row: 3;
+    margin-top: 0;
+}
+.desc-3 {
+    grid-row: 4/5;
+}
+.screenshot3 {
+    grid-row: 6/8;
+    margin-top: 0;
 }
