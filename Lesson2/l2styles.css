@@ -1,0 +1,64 @@
+h1,h2,h3,h4 {
+    font-family: 'Lato', 'Sans-Serif';
+}
+h1 {
+    background-color: #5B7553;
+    color: white;
+}
+p {
+    font-family: 'Roboto', 'Sans-Serif'; 
+}
+ol li {
+    font-family: 'Roboto', 'Sans-Serif';
+}
+img {
+    max-width: 100%;
+    display: block;
+    width: 550px;
+    border-radius: 6px;
+}
+a {
+    color: rgb(0, 0, 139);
+  }
+.lesson-2-header {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    background-color: #5B7553;
+    border-radius: 7px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+.headline-1 {
+    grid-column: 2;
+    grid-row: 1;
+    place-self: center;
+}
+.sub-headline {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 90px;
+    color: white;
+    place-self: center;
+}
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+}
+article {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 7px;
+    background-color: rgb(226, 224, 224);
+}
+.principle-1 {
+    width: 100%;
+    padding: 50px, 50px, 50px, 50px;
+}
