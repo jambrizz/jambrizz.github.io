@@ -1,5 +1,5 @@
 body {
-  width: 650px;
+  min-width: 390px;
 }
 /*
 below is to make sure the image shrinks to fit space it has so a scroll bar wont be added.
@@ -17,7 +17,8 @@ p {
   header {
   background-color: #7BA098;
   border-radius: 4px;
-  padding: 10px;   
+  padding: 10px;
+  width: 100%; 
 }
 .student-name {
   margin-left: 180px;
@@ -27,13 +28,12 @@ footer {
   background-color: #7BA098;
   border-radius: 4px;
   padding: 10px 15px 10px 15px;
+  width: 100%;
 }
 .profile-image {
-    height: 225px;
-    float: right;
-    clear: both;
-    margin-top: 30px;
+    height: 220px;
     border-radius: 4px;
+    justify-items: center;
 }
 .course-headline {
     margin-left: 15px;

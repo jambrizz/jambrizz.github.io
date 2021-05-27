@@ -1,8 +1,15 @@
 @media only screen and (min-width: 64em) {
-    main {
-        display: grid;
-        grid-template-columns: repeat(3, 466px);
-        grid-template-rows: auto;
-        grid-gap: 30px;
+    body {
+        width: 600px;
     }
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        display: block;
+      }
 }
