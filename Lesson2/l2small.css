@@ -34,7 +34,6 @@ a {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: auto;
     background-color: #5B7553;
-    border-radius: 7px;
     overflow: hidden;
     padding-bottom: 30px;
     margin-bottom: 10px;
@@ -58,15 +57,13 @@ body {
 /*
 main {
     display: grid;
-    grid-template-columns: repeat(3, 466px);
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
     grid-gap: 30px;
 }
 */
 article {
     border-style: solid;
     border-color: grey;
-    border-radius: 7px;
     background-color: rgb(226, 224, 224);
 }
 .principle-1 {
