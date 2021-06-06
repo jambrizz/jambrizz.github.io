@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@500&display=swap');
+/****** CSS that applies to all pages*****/
+h1,h2,h3,h4 {
+    font-family: "Noto Sans JP";
+    color: #CCDBDC;
+}
+p {
+    font-family: "Lato";
+    color: #CCDBDC;
+}
+a {
+    color: #CCDBDC;
+}
+body {
+    background-color: #007EA7;
+}
+header {
+    background-color: #003249;
+}
+table {
+    width: 60%;
+}
+/* ###### CSS for Index page ############*/
+.logo {
+    width: 7rem;
+}
+/*********** CSS for target-audience page**********/
+
+/*********** CSS for color-scheme page************/ 
+.primary {
+    background-color: #007EA7;
+}
+.secondary {
+    background-color: #CCDBDC;
+}
+.accent-1 {
+    background-color: #003249;
+    color: white;
+}
+.accent-2 {
+    background-color: #80CED7;
+}
+.accent-3 {
+    background: #9AD1D4;
+}
+/************** CSS for typography page************/
