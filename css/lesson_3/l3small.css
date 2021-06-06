@@ -2,23 +2,31 @@
 /****** CSS that applies to all pages*****/
 h1,h2,h3,h4 {
     font-family: "Noto Sans JP";
-    color: #CCDBDC;
+    color: black;
 }
 p {
     font-family: "Lato";
-    color: #CCDBDC;
+    color: black;
 }
 a {
-    color: #CCDBDC;
+    color: rgb(0, 0, 139);
 }
+a:hover {
+    color: darkred;
+  }
 body {
-    background-color: #007EA7;
+    background-color: darkgrey;
 }
 header {
-    background-color: #003249;
+    background-color: #7BA098;
 }
 table {
     width: 60%;
+}
+table td {
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
 }
 /* ###### CSS for Index page ############*/
 .logo {
@@ -44,3 +52,52 @@ table {
     background: #9AD1D4;
 }
 /************** CSS for typography page************/
+.color-1 {
+    background-color: #003249;
+    color: white;
+}
+.sample-1 {
+
+}
+.color-2 {
+    background-color: #CCDBDC;
+}
+.sample-2 {
+
+}
+.color-b {
+    background-color: #007EA7;
+    color: white;
+}
+.color-3 {
+    background-color: #003249;
+    color: white;
+}
+.sample-3 {
+
+}
+.color-4 {
+    color: #CCDBDC;
+}
+.sample-4 {
+
+}
+.color-5 {
+    background-color: #007EA7;
+    color: #CCDBDC;
+}
+.sample-5 {
+
+}
+.color-6 {
+    color: #CCDBDC;
+}
+.sample-6 {
+
+}
+.color-7 {
+    color: #CCDBDC;
+}
+.sample-7 {
+
+}
