@@ -46,58 +46,72 @@ table td {
     color: white;
 }
 .accent-2 {
-    background-color: #80CED7;
+    background-color: #F8F8FF;
 }
 .accent-3 {
-    background: #9AD1D4;
+    background: #000000;
+    color: #F8F8FF;
 }
 /************** CSS for typography page************/
 .color-1 {
-    background-color: #003249;
-    color: white;
+    color: black;
 }
 .sample-1 {
-
+    background-color: #003249;
+    color: #F8F8FF;
 }
 .color-2 {
-    background-color: #CCDBDC;
+    color: black;
 }
 .sample-2 {
-
+    background-color: #003249;
+    color: #CCDBDC;
 }
 .color-b {
+    color: black;
+}
+.sample-b {
     background-color: #007EA7;
-    color: white;
+    color: #F8F8FF;
 }
 .color-3 {
-    background-color: #003249;
-    color: white;
+    color: black;
 }
 .sample-3 {
-
+    background-color: #003249;
+    color: #F8F8FF;
 }
 .color-4 {
-    color: #CCDBDC;
+    color: black;
 }
 .sample-4 {
-
+    background-color: #003249;
+    color: #F8F8FF;
 }
 .color-5 {
-    background-color: #007EA7;
-    color: #CCDBDC;
+    color: #000000;
 }
 .sample-5 {
-
+    background-color: #007EA7;
+    color: #F8F8FF;
 }
 .color-6 {
-    color: #CCDBDC;
+    color: #000000;
 }
 .sample-6 {
-
+    background-color: #007EA7;
+    color: #F8F8FF;
 }
 .color-7 {
-    color: #CCDBDC;
+    color: #000000;
 }
 .sample-7 {
-
+    background-color: #007EA7;
+    color: #F8F8FF;
+}
+.example-div {
+    width: 60%;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    margin-top: 40px;
 }
