@@ -28,9 +28,19 @@ table td {
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
+nav a {
+    margin: 5px 5px 5px 5px;
+}
 /* ###### CSS for Index page ############*/
 .logo {
     width: 7rem;
+}
+.lesson-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
 }
 /*********** CSS for target-audience page**********/
 
