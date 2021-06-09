@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@500&display=swap');
 /****** CSS that applies to all pages*****/
 h1,h2,h3,h4 {
-    font-family: "Noto Sans JP";
+    font-family: "Lato";
     color: black;
 }
 p {
-    font-family: "Lato";
+    font-family: "Roboto";
     color: black;
+    max-width: 70%;
 }
 a {
     color: rgb(0, 0, 139);
@@ -29,11 +31,21 @@ table td {
     text-align: center;
 }
 nav a {
+    display: block;
     margin: 5px 5px 5px 5px;
 }
 /* ###### CSS for Index page ############*/
 .logo {
     width: 7rem;
+}
+.screenshot {
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 15px;
+}
+.sec-1-link {
+    margin-top: 15px;
 }
 .lesson-title{
     display: flex;
@@ -42,9 +54,33 @@ nav a {
     align-items: center;
     padding-bottom: 10px;
 }
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*********** CSS for target-audience page**********/
-
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*********** CSS for color-scheme page************/ 
+.sec-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .primary {
     background-color: #007EA7;
 }
@@ -63,6 +99,11 @@ nav a {
     color: #F8F8FF;
 }
 /************** CSS for typography page************/
+.sec-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .color-1 {
     color: black;
 }
@@ -124,4 +165,26 @@ nav a {
     border-style: solid;
     padding: 10px 10px 10px 10px;
     margin-top: 40px;
+    background-color: #007EA7;
+    margin-bottom: 5px;
+}
+.example-heading {
+    font-family: "Noto Sans JP";
+    background-color: rgb(0, 50, 73);
+    color: rgb(248, 248, 255);
+    max-width: 45%;
+    border-radius: 5px;
+    padding: 2.5px 5px 2.5px 12px;
+}
+.example-sub-heading {
+    font-family: "Noto Sans JP";
+    background-color: rgb(0, 126, 167);
+    color: rgb(248, 248, 255);
+    margin-left: 12px;
+}
+.example-par {
+    font-family: "Lato";
+    background-color: rgb(0, 126, 167);
+    color: rgb(248, 248, 255);
+    margin-left: 12px;
 }
