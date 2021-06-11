@@ -3,4 +3,29 @@
         display: inline;
         margin: 5px 5px 5px 5px;
     }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 1.27em;
+    }
+    p {
+        font-size: 1em;
+    }
+    nav a{
+        font-size: 1em;
+    }
+    a {
+        font-size: 1em;
+    }
+    /**** index css ****/
+    .logo {
+        width: 9rem;
+    }
+    .screenshot {
+        width: 45%;
+    }
 }

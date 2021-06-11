@@ -1,3 +1,38 @@
 @media only screen and (min-width: 64em) {
-
+    h1 {
+        font-size: 2.6em;
+    }
+    h2 {
+        font-size: 2.2em;
+    }
+    h3 {
+        font-size: 1.77em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    nav a{
+        font-size: 1.25em;
+    }
+    a {
+        font-size: 1.25em;
+    }
+     /**** index css ****/
+     .logo {
+        width: 11rem;
+    }
+     .screenshot {
+        width: 50%;
+    }
+    /****** typography css *****/
+    .example-heading {
+        max-width: 55%;
+        padding: 4px 6px 9px 15px;
+    }
+    table th {
+        font-size: 1.25em;
+    }
+    table td {
+        font-size: 1.25em;
+    }
 }

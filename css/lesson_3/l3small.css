@@ -5,13 +5,24 @@ h1,h2,h3,h4 {
     font-family: "Lato";
     color: black;
 }
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.07em;
+}
 p {
     font-family: "Roboto";
     color: black;
     max-width: 70%;
+    font-size: .95em;
 }
 a {
     color: rgb(0, 0, 139);
+    font-size: .95em;
 }
 a:hover {
     color: darkred;
@@ -74,6 +85,9 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.sec-3-par {
+    width: 60%;
 }
 /*********** CSS for color-scheme page************/ 
 .sec-5 {
