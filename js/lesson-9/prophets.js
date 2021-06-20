@@ -11,6 +11,14 @@ fetch(requestURL)
        let h2 = document.createElement('h2');
        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
        card.appendChild(h2);
+       let ul = document.createElement('ul');
+       let li1 = document.createElement('li1');
+       li1.textContent = 'Date of birth:' + ' ' + prophets[i].birthdate + ' ';
+       card.appendChild(li1);
+       document.querySelector('div.cards').appendChild(card);
+       let li2 = document.createElement('li2');
+       li2.textContent = 'Place of birth:' + ' ' + prophets[i].birthplace + ' ';
+       card.appendChild(li2);
        document.querySelector('div.cards').appendChild(card);
     }
     });
