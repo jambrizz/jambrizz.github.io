@@ -19,6 +19,7 @@ footer {
     width: 100%;
 }
 nav a {
+    display: block;
     color: #CCDBDC;
     font-family: 'Lato';
 }
